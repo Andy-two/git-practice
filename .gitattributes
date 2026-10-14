@@ -1,0 +1,46 @@
+# 新仓库默认生效（通过 init.templateDir 自动带入）
+# 文本统一 LF：两台电脑/两个系统不再因换行打架
+* text=auto eol=lf
+
+# 二进制：禁止换行转换，避免资源被 Git 悄悄改坏
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tga binary
+*.psd binary
+*.tif binary
+*.tiff binary
+*.exr binary
+*.hdr binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.flac binary
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.webm binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.fbx binary
+*.obj binary
+*.blend binary
+*.dae binary
+*.zip binary
+*.7z binary
+*.rar binary
+*.gz binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.exe binary
+*.unity binary
+*.prefab binary
+*.asset binary
+*.mat binary
+*.uasset binary
+*.umap binary
